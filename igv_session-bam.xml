@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="/home/bioinforuser06/Documents/projects/acinetobacter/genome/ACINETOBACTER_GENOME.fasta" locus="CP039025.2:1977593-1977665" nextAutoscaleGroup="2" version="8">
+    <Resources>
+        <Resource path="/home/bioinforuser06/Documents/projects/acinetobacter/SRR25305574_sorted.vcf" type="vcf"/>
+        <Resource path="/home/bioinforuser06/Documents/projects/acinetobacter/alignment/SRR25305574_sorted.bam" type="bam"/>
+    </Resources>
+    <Panel height="516" name="DataPanel" width="1835">
+        <Track attributeKey="SRR25305574_sorted.vcf" clazz="org.broad.igv.variant.VariantTrack" displayMode="EXPANDED" fontSize="10" groupByStrand="false" id="/home/bioinforuser06/Documents/projects/acinetobacter/SRR25305574_sorted.vcf" name="SRR25305574_sorted.vcf" siteColorMode="ALLELE_FREQUENCY" visible="true"/>
+    </Panel>
+    <Panel height="5558" name="Panel1770039405842" width="1835">
+        <Track attributeKey="SRR25305574_sorted.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="/home/bioinforuser06/Documents/projects/acinetobacter/alignment/SRR25305574_sorted.bam_coverage" name="SRR25305574_sorted.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="168.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="SRR25305574_sorted.bam Junctions" autoScale="true" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="/home/bioinforuser06/Documents/projects/acinetobacter/alignment/SRR25305574_sorted.bam_junctions" maxdepth="50" name="SRR25305574_sorted.bam Junctions" visible="false"/>
+        <Track attributeKey="SRR25305574_sorted.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="/home/bioinforuser06/Documents/projects/acinetobacter/alignment/SRR25305574_sorted.bam" name="SRR25305574_sorted.bam" visible="true">
+            <RenderOptions duplicatesOption="FILTER"/>
+        </Track>
+    </Panel>
+    <Panel height="40" name="FeaturePanel" width="1835">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="false" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.6491228070175439,0.943609022556391"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
